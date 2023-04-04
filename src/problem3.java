@@ -6,7 +6,7 @@ public class problem3 {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
 
-        if (isPrime(number, number/2)) {
+        if (isPrime(number, (int) Math.pow(number, 0.5))) {
             System.out.println("Prime");
         } else {
             System.out.println("Composite");
