@@ -18,6 +18,7 @@ public class Main {
 
         switch (n){
             case 1:
+
                System.out.println("""
                        Problem 1.
                        You are given a number “n” and an array of “n” elements,
